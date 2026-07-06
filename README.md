@@ -6,7 +6,7 @@
 
 * The paper is under review.
 
-**Abstract** Despite extensive research on computed tomography (CT) denoising, few studies exploit projection-domain data characteristics to mitigate noise correlation. To bridge this gap, this work proposes FrequencyCT, the first zero-shot self-supervised method for pseudo-sample generation in the frequency domain for low-dose CT denoising. Specifically, by exploiting the distinct frequency-domain distributions of noise and true signal, a regional low-frequency anchoring technique is proposed. Applying phase-preserving noise and mask perturbations to the high-frequency region generates pseudo-samples for self-supervision. Driven by the exponential correlation between noise variance of noisy projections and the underlying true signal, consistent data truncation is applied to the generated samples to stabilize optimization gradients. Evaluation results on multiple public and real datasets confirm the clinical application potential of this research, which provides an innovative perspective for the field of denoising. The code is available at: \url{https://github.com/yqx7150/FrequencyCT}.
+**Abstract** 	Despite extensive research on computed tomography (CT) denoising, few studies exploit projection-domain data characteristics to mitigate noise correlation. To bridge this gap, this work proposes FrequencyCT, a novel zero-shot self-supervised method for pseudo-sample generation in the frequency domain for low-dose CT denoising. Specifically, by exploiting observed projection-domain spectral tendencies under low-dose acquisition, a regional low-frequency anchoring technique is proposed. Applying phase-preserving noise and mask perturbations to the high-frequency region generates pseudo-samples for self-supervision. Driven by the approximate exponential correlation between noise variance of noisy projections and the underlying true signal, consistent data truncation is applied to the generated samples to stabilize optimization gradients. Evaluation results on multiple public and real datasets confirm the application potential of this research, which provides an innovative perspective on pseudo-sample generation for the field of denoising. The code is available at: \url{https://github.com/yqx7150/FrequencyCT}.
 ## The training and Inference of FrequencyCT
 ![fig1](image/fig1.png) 
 ![fig2](image/fig2.png)
@@ -14,7 +14,7 @@
 ![fig3](image/fig3.png)
 ![fig4](image/fig4.png)
 
-The code will be uploaded soon.
+The code will be uploaded after the paper is accepted.
 ---
 
 ## Other Related Projects
